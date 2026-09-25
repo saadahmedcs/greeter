@@ -30,9 +30,8 @@ def main() -> None:
         user_name = input("Enter your name: ")
 
     greeting = generate_greeting(user_name)
-    print(greeting)
+    print("Hi and", greeting)
     print(f"Today's date is {datetime.date.today()}")
-
 
 if __name__ == "__main__":
     main()
