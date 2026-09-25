@@ -30,6 +30,7 @@ def main() -> None:
         user_name = input("Enter your name: ")
 
     greeting = generate_greeting(user_name)
+    print("Hello and", greeting)
     print("Hi and", greeting)
     print(f"Today's date is {datetime.date.today()}")
 
